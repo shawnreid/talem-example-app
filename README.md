@@ -9,3 +9,4 @@ Docker must be installed on your machine to run this application
 - ./vendor/bin/sail artisan migrate:fresh --seed
 - ./vendor/bin/sail npm install
 - ./vendor/bin/sail npm run watch
+- application should be available via http://localhost or http://laravel.test
