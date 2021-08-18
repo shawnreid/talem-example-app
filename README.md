@@ -13,7 +13,7 @@ Docker must be installed on your machine to run this application.
 
 ## Test Instructions
 
-Create a simple TODO app using Laravel, InertiaJS, VueJS and BootstrapVue. The todo app should have one form field which allows you to enter a 'task'. Please take your time and complete using clean, readable code. You will not be assessed on how long it takes you to complete this task.
+Create a simple TODO app using Laravel, InertiaJS, VueJS (v2) and BootstrapVue. The todo app should have one form field which allows you to enter a 'task'. Please take your time and complete using clean, readable code. You will not be assessed on how long it takes you to complete this task.
 
 ## Requirements:
 > 1) Create a todo list with CRUD (Create, Read, Update, Delete) logic.
@@ -25,11 +25,12 @@ Create a simple TODO app using Laravel, InertiaJS, VueJS and BootstrapVue. The t
 
 ## Installation:
 > 1) Install a blank laravel project using composer (https://laravel.com/docs/8.x/installation)
-> 2) Install InertiaJS PHP dependencies using composer (https://inertiajs.com/server-side-setup)
-> 3) Install InertiaJS Vue dependencies using npm (https://inertiajs.com/client-side-setup)
-> 4) Install BootstrapVue using npm (https://bootstrap-vue.org/docs)
-> 5) Create a database migration for table `todos` which has 1 column `task` (https://laravel.com/docs/8.x/migrations)
-> 6) Create database model `Todos` which references database table `todos` (https://laravel.com/docs/8.x/eloquent)
+> 2) Install VueJS (v2) using NPM (https://vuejs.org/v2/guide/installation.html)
+> 3) Install InertiaJS PHP dependencies using composer (https://inertiajs.com/server-side-setup)
+> 4) Install InertiaJS Vue dependencies using npm (https://inertiajs.com/client-side-setup)
+> 5) Install BootstrapVue using npm (https://bootstrap-vue.org/docs)
+> 6) Create a database migration for table `todos` which has 1 column `task` (https://laravel.com/docs/8.x/migrations)
+> 7) Create database model `Todos` which references database table `todos` (https://laravel.com/docs/8.x/eloquent)
 
 ## TODO example input:
 > Take dogs for a walk.
